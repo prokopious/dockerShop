@@ -14,7 +14,7 @@ const ProductDisplay = () => (
   </section>
 )
 
-const Message = ({ string: message }) => (
+const Message = ({ message }) => (
   <section>
     <p>{message}</p>
   </section>
