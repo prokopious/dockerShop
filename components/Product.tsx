@@ -20,6 +20,10 @@ const Product: React.FC<Props> = ({ product }) => {
         >
           <button type="submit">Checkout</button>
         </form>{" "}
+        <p id="docker">
+          This transaction will be handled by a Dockerized Node.js backend in an
+          AWS EC2 instance.
+        </p>
       </div>
     </div>
   )

@@ -12,6 +12,14 @@ body {
   background-color: #e8e8e8;
 }
 
+#docker {
+  color:rgb(122, 121, 121);
+  padding-top: 20px;
+  margin: 20px;
+  max-width: 400px;
+  font-size: 15px;
+}
+
 #thanks {
 
   font-size: 20px;

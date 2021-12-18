@@ -3,7 +3,7 @@ import Product from "../components/Product"
 import{ IProduct }from "../types"
 
 const ikon: IProduct = {
-  name: "Squirrel Icon",
+  name: "Digital Fine Art",
   price: 10,
   imageUrl: "https://i.imgur.com/J2ZjK3P.png"
 }
