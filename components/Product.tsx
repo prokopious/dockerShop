@@ -15,7 +15,7 @@ const Product: React.FC<Props> = ({ product }) => {
           <h5>{`$${product.price}`}</h5>
         </div>
         <form
-          action="http://ec2-54-167-77-216.compute-1.amazonaws.com:4000/create-checkout-session"
+          action="https://digital-art.click/create-checkout-session"
           method="POST"
         >
           <button type="submit">Checkout</button>
